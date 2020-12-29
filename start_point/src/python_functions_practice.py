@@ -40,6 +40,9 @@ def volume_of_cube(num):
     return num **3
 
 
+def reverse_string(str):
+    return str[::-1]
+
 # def test_reverse_string(string):
 #       return string[::-1]
 # mytxtbackwards = test_reverse_string("God Help us!")
