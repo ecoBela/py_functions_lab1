@@ -43,9 +43,9 @@ def volume_of_cube(num):
 def reverse_string(str):
     return str[::-1]
 
-# def test_reverse_string(string):
-#       return string[::-1]
-# mytxtbackwards = test_reverse_string("God Help us!")
-# print(mytxtbackwards)
+def fahrenheit_to_celsius(num):
+    return (num - 32) * (5/9)
+
+
 
 

@@ -87,11 +87,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
       self.assertEqual("retniw", result)
 
   #Given a value in farenheit, convert this into celsius.
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_fahrenheit_to_celsius(self):
-    #add test code here
-    pass
-
-
-if __name__ == '__main__':
-    unittest.main()
+      result = fahrenheit_to_celsius(32)
+      self.assertEqual(0, result)
+      
+def test_fahrenheit_to_celsius(self):
+    result = fahrenheit_to_celsius(77)
+    self.assertEqual(25, result)
