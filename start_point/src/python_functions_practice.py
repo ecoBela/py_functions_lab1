@@ -36,7 +36,8 @@ def number_to_short_month_name(index):
     # print(short_month_name[index])
     return short_month_name[index]
 
-number_to_short_month_name(1)
+def volume_of_cube(num):
+    return num **3
 
 
 # def test_reverse_string(string):
